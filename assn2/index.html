@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"><!--access to Bootstrap's predefined styles and components.-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+
+    <link href="styles.css" rel="stylesheet">
+   
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3"><!--utility classes-->
+        <h1>Climate Change</h1>
+    </header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark"><!--bootstrap's navigation component-->
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><!-- collapses on smaller screens.-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="causes.html">Causes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="effects.html">Effects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        More
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="about.html">About Us</a>
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container mt-4"><!--container with added top margin-->
+        <section class="mb-4">
+            <h2>Introduction</h2>
+            <p>Climate change refers to significant changes in global temperatures and weather patterns over time. While climate change is a natural phenomenon, scientific evidence shows that human activities have been a primary driver of recent changes.</p>
+        </section>
+        <section class="mb-4">
+            <h2>Image Section</h2>
+            <img src="https://th.bing.com/th/id/R.829fac8625d99b1599838c457ad0490e?rik=WRnP02IDXh%2b%2fbg&riu=http%3a%2f%2fblogs.ubc.ca%2fgabriel%2ffiles%2f2013%2f06%2fFragilePlanetEarth-ClimateLiteracy.jpg&ehk=6P855UoOBYJ3x1m2nNiPUAOnhR4McBI0wBLxDuvcRg0%3d&risl=&pid=ImgRaw&r=0" class="img-fluid" alt="Climate Change Image">
+        </section>
+        <section id="Divya" class="mb-4">
+            <h2>Embedded Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EuwMB1Dal-4" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section class="mb-4">
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Climate Change page loaded');
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
